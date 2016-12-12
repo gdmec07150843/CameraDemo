@@ -78,7 +78,6 @@ public class MainActivity extends AppCompatActivity implements SurfaceHolder.Cal
                 file = new File(pathName);
                 if (!file.exists()) {
                     file.createNewFile();
-
                 }
                 FileOutputStream fos = null;
 
